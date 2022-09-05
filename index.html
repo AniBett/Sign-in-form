@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+</head>
+<body>
+<div class="total_container">
+    <div class="logo"><img src="./img/odin-lined.png"></div>
+    <div class="image_container">
+       
+        <img src="./img/pixel_art.jpg">
+    </div>
+    <div class="sign-in_container">
+     <div>
+
+        <p class="p1">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+        
+        <p class="p2">You know you want to.</p>
+        </div>
+     <form action="" method="post">
+        <p class="specialBoi">Let's do this!</p>
+        <fieldset>
+            <div class="inputWrapper">
+            <label for="fName">First Name</label>
+            <input type="text" id="fName" name="fName" required="" placeholder=" ">
+            </div>
+            <div class="inputWrapper">
+            <label for="lName">Last Name</label>
+            <input type="text" id="lName" name="lName" required="" placeholder=" ">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="inputWrapper">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required="" placeholder=" ">
+            </div>
+            <div class="inputWrapper">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required="" placeholder=" " title="Please Enter Valid Phone Number">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="inputWrapper">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required="" placeholder=" ">
+            </div>
+            <div class="inputWrapper">
+            <label for="confirmPass">Confirm Password</label>
+            <input type="password" id="confirmPass" name="confirmPass" required="" placeholder=" ">
+           </div>
+        </fieldset>
+
+        <div class="errorMessage"></div>
+        <div class="submitButton">
+            <button type="submit" id="submit">Create Account</button>
+        </div>
+        
+     </form>
+    </div>
+</div>
+</body>
+</html>
