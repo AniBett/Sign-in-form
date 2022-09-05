@@ -1,0 +1,172 @@
+@import  url(https://fonts.googleapis.com/css2?family=DM+Sans);
+:root{
+	--txt-color:rgb(185, 185, 185);
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.total_container{
+    display: flex;
+   
+}
+.sign-in_container{
+    display: flex;
+    flex-direction: column;
+}
+.image_container img{
+    z-index: -1;
+    height: 100vh;
+    width:40vw;
+}
+.logo{
+	top: 6vh;
+	width:40vw;
+	position: absolute;
+	background-color: black;
+	opacity: 0.5;
+}
+.logo img{
+	margin-left: 15vw;
+	height: 12vh;
+	width:12vh
+}
+fieldset{
+    display: flex;
+	margin-left: 2.86em;
+	
+    
+}
+.inputWrapper label{
+    display:block;
+  }
+.inputWrapper{
+    margin:5px;
+	font-family: 'DM Sans';
+}
+p{
+	font-size: 20px;
+	font-family: 'DM Sans';
+	margin-right:18em;
+	margin-left: 2.5em;
+}
+.sign-in_container{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	color: var(--txt-color);
+}
+p{
+	
+	margin-bottom:5vh;
+	font-weight: 900;
+	
+	
+}
+.p2{
+	margin-bottom: 10vh;
+}
+input{
+	background-color: rgb(2, 2, 2);
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+	width: 15vw;
+	color: var(--txt-color);
+	outline: none;
+	
+}
+input:focus{
+	box-shadow: 0 0 5px #00FFFF;
+	
+	border: 1px solid #00FFFF;
+}
+.specialBoi{
+	margin-top:1vh;
+	margin-bottom: 2vh;
+}
+form{
+	background-color:rgb(6, 6, 6);
+}
+button{
+	border-radius: 12px;
+	background-color:black;
+	border: 1px solid #00FFFF;
+	padding:1.5em;
+	color: #00FFFF;
+	margin-left: 11em;;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	font-weight: 900;
+	font-size: 20px;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+
+}
+button:focus, button:hover{
+	color: black;
+	background-color: #00FFFF;
+}
+label{
+	color:rgba(185, 185, 185,0.7);
+	font-size: 12.5px;
+}
+input:not(:focus):not(:placeholder-shown):invalid{
+	border:1px solid #FF00FF;
+	box-shadow: 0 0 5px #FF00FF;
+
+}
+.errorMessage{
+	color: #FF00FF;
+	font-family: 'DM Sans';
+	font-size: 12px;
+	margin-left: 22em;
+	
+
+}
